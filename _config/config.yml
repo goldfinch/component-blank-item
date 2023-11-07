@@ -1,3 +1,7 @@
 ---
 Name: goldfinch-component-blankitem
 ---
+
+Goldfinch\Component\BlankItem\Admin\BlanksAdmin:
+  extensions:
+    - Goldfinch\Helpers\Extensions\BlocksAdminExtension
