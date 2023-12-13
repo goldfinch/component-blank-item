@@ -1,0 +1,11 @@
+---
+Name: goldfinch-component-blankitem-sortable
+---
+
+Goldfinch\Component\BlankItem\Models\Nest\BlankCategory:
+  extensions:
+    - Goldfinch\Helpers\Extensions\DataObjectSortable
+
+Goldfinch\Component\BlankItem\Models\Nest\BlankItem:
+  extensions:
+    - Goldfinch\Helpers\Extensions\DataObjectSortable

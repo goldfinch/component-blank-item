@@ -16,7 +16,7 @@ class BlanksAdmin extends ModelAdmin
 
     private static $url_segment = 'blanks';
     private static $menu_title = 'Blanks';
-    private static $menu_icon_class = 'bi-circle';
+    private static $menu_icon_class = 'font-icon-minus-circle';
     // private static $menu_priority = -0.5;
 
     private static $managed_models = [

@@ -5,3 +5,12 @@ Name: goldfinch-component-blankitem
 Goldfinch\Component\BlankItem\Admin\BlanksAdmin:
   extensions:
     - Goldfinch\Helpers\Extensions\BlocksAdminExtension
+
+---
+Name: goldfinch-component-blankitem-icon
+Only:
+  moduleexists: 'goldfinch/enchantment'
+---
+
+Goldfinch\Component\BlankItem\Admin\BlanksAdmin:
+  menu_icon_class: 'bi-circle'
