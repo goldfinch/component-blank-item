@@ -10,5 +10,5 @@ class Blanks extends Nest
     private static $table_name = 'Blanks';
     private static $controller_name = BlanksController::class;
 
-    private static $icon_class = 'bi-circle';
+    private static $icon_class = 'font-icon-minus-circle';
 }

@@ -14,3 +14,11 @@ Only:
 
 Goldfinch\Component\BlankItem\Admin\BlanksAdmin:
   menu_icon_class: 'bi-circle'
+
+Goldfinch\Component\BlankItem\Pages\Nest\Blanks:
+  icon_class: 'bi-circle'
+
+Goldfinch\Component\BlankItem\Blocks\BlanksBlock:
+  icon: 'bi-circle'
+
+
