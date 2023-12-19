@@ -84,6 +84,8 @@ class BlankItem extends NestedObject
             ]
         );
 
+        $fields->dataFieldByName('Image')->setFolderName('blank');
+
         return $fields;
     }
 
