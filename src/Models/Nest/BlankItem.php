@@ -8,7 +8,7 @@ use SilverStripe\Forms\TextField;
 use SilverStripe\TagField\TagField;
 use Goldfinch\Component\BlankItem\Models\Nest\BlankCategory;
 use Goldfinch\Nest\Models\NestedObject;
-use Goldfinch\FocusPointExtra\Forms\UploadFieldWithExtra;
+use Goldfinch\ImageEditor\Forms\EditableUploadField;
 
 class BlankItem extends NestedObject
 {
@@ -76,7 +76,7 @@ class BlankItem extends NestedObject
         $fields->addFieldsToTab(
             'Root.Main',
             [
-                ...UploadFieldWithExtra::create('Image', 'Image', $fields, $this)->getFields(),
+                ...EditableUploadField::create('Image', 'Image', $fields, $this)->getFields(),
                 ...[
                     TextField::create('Title', 'Title'),
                     TagField::create('Categories', 'Categories', BlankCategory::get())
